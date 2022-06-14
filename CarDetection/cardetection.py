@@ -27,7 +27,7 @@ while True:
     for (x, y, w, h) in cars:
         cv2.rectangle(frame, (x,y),((x+w), (y+h)), (0, 255, 0), 3)
 
-    #Show the image with the faces spotted
+    #Show the image with the cars spotted
     cv2.imshow('My car detection app', frame)
 
     #to avoid immediate close, close only on key press 
